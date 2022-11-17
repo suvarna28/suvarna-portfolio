@@ -211,7 +211,14 @@ footer div {
     padding-top: 10px;
 }
 
+
+
 /* Setting up different sections in columns for device screen of 768px or smaller */
+
+@media screen and (max-width: 992px) {
+
+    
+}
 
 @media screen and (max-width: 768px) {
 
