@@ -12,7 +12,7 @@ This is my portfolio website. If any employer wants to know about me and see the
 ## Features
 
 * Responsive in different devices
-* When you hover over some the content it creates an opacity and gradient background
+* When you hover over some of the content it creates an opacity and gradient background
 
 ## Installation
 
@@ -20,10 +20,11 @@ N/A
 
 ## Screenshot
 
-![Main Webpage](./screenshot/01-html-css-git-homework-demo.png)
+![Main Webpage](./screenshot/screenshot.png)
 
 ## Link to the deployed application
 
+https://suvarna28.github.io/homework-2/
 
 ## Credits
 
