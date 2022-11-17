@@ -197,12 +197,14 @@ footer {
     color: var(--aqua);
 }
 
-/* Setting up styling for footer paragraph element */
+/* Setting up styling for footer paragraph element, added underline with a gap between text and underline */
 
 footer nav p {
     width: 100%;
     text-align: center;
     padding: 30px 50px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
 }
 
 /* Setting up some top padding for footer div element */
@@ -212,13 +214,7 @@ footer div {
 }
 
 
-
 /* Setting up different sections in columns for device screen of 768px or smaller */
-
-@media screen and (max-width: 992px) {
-
-    
-}
 
 @media screen and (max-width: 768px) {
 

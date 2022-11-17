@@ -14,7 +14,7 @@ This is my portfolio website. If any employer wants to know about me and see the
 
 * Responsive layout to adjust to different screen sizes
 * When you hover over "About Me", "Work", "Contact Me" or "Resume" in the header section, it will change the background color, opacity and shadow  
-* When you hover over any of the application in "My Work" section, the application image will change  background color, opacity and shadow to show that you are on the current application(similar to as shown in the sample gif of the challenge)
+* When you hover over any of the application in "My Work" section, the application image will change  background color, opacity and shadow to show that you are on the current application
 
 ## Installation
 
