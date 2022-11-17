@@ -5,8 +5,9 @@
 This is my portfolio website. If any employer wants to know about me and see the work I have done they can visit my website and get an idea about my background. Below are the contents of this website.
 
 * A small introduction about me
-* Work: Some of the projects I worked on until now
-* Contact me section with my phone, email and a link to my GitHub profile
+* For my 'Avatar', I chose a small tag line and an image that relates to my tagline
+* Work, some of the projects I worked on until now
+* Contact me section with my phone number, email and a link to my GitHub profile
 
 ## Features
 
@@ -29,5 +30,4 @@ N/A
 * MaSandra Ewing, for introducing me to 'istockphoto' for images & for very helpful feedback on my first draft of the website
 * istockphoto, for the images I downloaded and used in my website
 * Our Teaching Assistant Sebastian for very helpful feedback on my first draft of the website
-
-
+* Google Fonts, I have used some fonts from google fonts 

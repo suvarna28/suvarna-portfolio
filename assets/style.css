@@ -2,6 +2,8 @@
     --aqua: #80ffdb;
 } 
 
+/* Setting some styling for the entire body */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@
 } 
 
 /* Header Styling */
+
+/* Setting up header as flexbox and applying padding, text alignment, font family, font size, background color and text color */
 
 header {
     display: flex;
@@ -21,20 +25,28 @@ header {
     text-align: center;
     color: var(--aqua);
 }
+
+/* Setting up header div width and float style */
   
 header > div {
     width: 50%;
     float: left;
 }
 
+/* Setting up nav in header as a flexbox and applying background color */
+
 nav {
     display: flex;  
     background-color: #323232;
 }
 
+/* Setting up top padding for header nav element */
+
 .header-nav {
     padding-top: 10px;
 }
+
+/* Setting up anchor tags in header nav with color, font family, padding and text decoration */
   
 nav a {
     color: var(--aqua);
@@ -42,6 +54,8 @@ nav a {
     padding: 10px;
     text-decoration: none;
 } 
+
+/* Applying styling to anchor tags when you hover over them, it applies a border with style, width, radius, opacity and shadow */
 
 a:hover {
     border-style: solid;
@@ -51,12 +65,16 @@ a:hover {
     box-shadow: 0 0 5px 2px #80ffdb; 
 }
 
+/* Setting up styling for header paragraph element */
+
 header p {
     padding: 10px;
     font-size: large;
 }
 
 /* Main Styling */
+
+/* Setting up main as flexbox and applying padding, font family, font size, background color and text color */
 
 main {
     display: flex;
@@ -65,9 +83,11 @@ main {
     font-family: 'Nunito', sans-serif;
     background-color: rgb(0, 0, 0);
     color: var(--aqua);
-    padding: 50px 150px;
+    padding: 50px 250px;
     font-size: larger;
 }
+
+/* Setting up styling for main paragraph element */
 
 main p {
     display: flex;
@@ -76,9 +96,13 @@ main p {
     font-size: large;
 }
 
-.myworktitle {
+/* Setting up top margin for h4 in main */
+
+h4 {
     margin-top: 40px;
 }
+
+/* Setting up mywork class as a flexbox and giving gap, padding between the flex items */
 
 .mywork {
     gap: 20px;
@@ -88,7 +112,7 @@ main p {
     justify-content: center;
 }
 
-/* #ba6b8b,#c7a74a */
+/* Setting up styling for each flex item, giving height, width, border style to the items */
 
 .item {
     flex: 1 0 400px;
@@ -101,12 +125,15 @@ main p {
     width: 50%;
 } 
 
+/* Setting up background sea image for .item-sea class and the corresponding item */
+
 .item-sea {
     background: url(../images/sea.jpeg);
     background-size: 100%;
     background-repeat: none;
 }
 
+/* Setting up background led image for .item-led class and the corresponding item */
 
 .item-led {
     background: url(../images/led.jpeg);
@@ -114,11 +141,15 @@ main p {
     background-repeat: none;
 }
 
+/* Setting up background calculator image for .item-calculator class and the corresponding item */
+
 .item-calculator {
     background: url(../images/calculator.jpeg);
     background-size: 100%;
     background-repeat: none;
 }
+
+/* Setting up background pattern image for .item-pattern class and the corresponding item */
 
 .item-pattern {
     background: url(../images/pattern.webp);
@@ -126,11 +157,15 @@ main p {
     background-repeat: none;
 }
 
+/* Setting up background running image for .item-running class and the corresponding item */
+
 .item-running {
     background: url(../images/running.jpeg);
-    background-size: auto;
+    background-size: 100%;
     background-repeat: none;
 }
+
+/* Setting up styling for item's paragraph element */
 
 .item p {
     padding-left: 10px;
@@ -139,6 +174,8 @@ main p {
     width: 25%;
 }
 
+/* Applying styling to flex items when you hover over them, it applies a background color, opacity and shadow */
+
 .item:hover {
     background-color: rgba(50, 50, 50, 0.5); 
     opacity: 0.5;
@@ -146,6 +183,8 @@ main p {
 }
 
 /* Footer Styling */
+
+/* Setting up footer as flexbox and applying padding, text alignment, font family, background color and text color */
 
 footer {
     display: flex;
@@ -158,37 +197,47 @@ footer {
     color: var(--aqua);
 }
 
+/* Setting up styling for footer paragraph element */
+
 footer nav p {
     width: 100%;
     text-align: center;
     padding: 30px 50px;
 }
 
+/* Setting up some top padding for footer div element */
+
 footer div {
-    padding: 10px 0;
+    padding-top: 10px;
 }
+
+/* Setting up different sections in columns for device screen of 768px or smaller */
 
 @media screen and (max-width: 768px) {
 
+    /* Setting up header divs in column */
+
     header {
         flex-direction: column;
-        justify-content: center;
     }
+
+    /* Setting up header width to fit the screen */
 
     header > div {
         width: 100%;
     }
 
+    /* Setting up nav content in column */
+
     nav {
       flex-direction: column;
     }
-    
+
+    /* Changing the left and right padding for main section when the screen width changes */
+
     main {
         padding: 50px 0;
     }
 
-    h1, .header-nav {
-        float: none;
-    }
 }
 
