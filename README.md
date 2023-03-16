@@ -25,7 +25,7 @@ N/A
 
 ## Link to the deployed application
 
-https://suvarna28.github.io/homework-2/
+https://suvarna28.github.io/suvarna-portfolio/
 
 ## Credits
 
