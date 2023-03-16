@@ -140,46 +140,6 @@ h4 {
     width: 50%;
 } 
 
-/* Setting up background sea image for .item-sea class and the corresponding item */
-
-.item-sea {
-    background: url(../images/sea.jpeg);
-    background-size: 100%;
-    background-repeat: none;
-}
-
-/* Setting up background led image for .item-led class and the corresponding item */
-
-.item-led {
-    background: url(../images/led.jpeg);
-    background-size: 100%;
-    background-repeat: none;
-}
-
-/* Setting up background calculator image for .item-calculator class and the corresponding item */
-
-.item-calculator {
-    background: url(../images/calculator.jpeg);
-    background-size: 100%;
-    background-repeat: none;
-}
-
-/* Setting up background pattern image for .item-pattern class and the corresponding item */
-
-.item-pattern {
-    background: url(../images/pattern.webp);
-    background-size: 100%;
-    background-repeat: none;
-}
-
-/* Setting up background running image for .item-running class and the corresponding item */
-
-.item-running {
-    background: url(../images/running.jpeg);
-    background-size: 100%;
-    background-repeat: none;
-}
-
 /* Setting up styling for item's paragraph element */
 
 .item p {
